@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather App</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Weather App</h1>
+    </header>
+
+
+<div class="section" id="search-history">
+    <div class="search-box">
+        <h2>Search for a City:</h2>
+        <input type="text" id="search-input" value="enter a city">
+        <button class="search-btn" id="search-btn">Search</button>
+    </div>
+
+    <div class="history-box">
+        <div class="history" id="history">History goes here</div>
+    </div>
+</div>
+
+    <div class="container" id="current-box">
+        <div class="col s6">current day goes here</div>
+    </div>
+
+    <div class="row" id="daily-box">
+        <div class="col s1 forcast" id="day1">day 1 goes here</div>
+        <div class="col s1 forcast" id="day2">day 2 goes here</div>
+        <div class="col s1 forcast" id="day3">day 3 goes here</div>
+        <div class="col s1 forcast" id="day4">day 4 goes here</div>
+        <div class="col s1 forcast" id="day5">day 5 goes here</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
