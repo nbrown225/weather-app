@@ -8,34 +8,45 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather App</title>
 </head>
-<body>
+<!-- -------------- HEADER SECTION -->
+<body class="blue lighten-5 center">
     <header>
         <h1>Weather App</h1>
     </header>
 
-
-<div class="section" id="search-history">
-    <div class="search-box">
+<!-- -------------- MAIN SEARCH / CURRENT / HISTORY SECTION -->
+<div class="section card-panel indigo darken-2 z-depth-5 row" id="search-current">
+    <div class="col s4 card-panel z-depth-5" id="search-box">
         <h2>Search for a City:</h2>
         <input type="text" id="search-input" value="enter a city">
         <button class="search-btn" id="search-btn">Search</button>
-    </div>
 
-    <div class="history-box">
-        <div class="history" id="history">History goes here</div>
+        <div  id="history-box">
+            <div class="history" id="history">History goes here</div>
+        </div>
+    </div>
+    <div class="col s8 card-panel z-depth-5" id="current-box">
+        <div class=" center">current day goes here</div>
     </div>
 </div>
 
-    <div class="container" id="current-box">
-        <div class="col s6">current day goes here</div>
-    </div>
-
-    <div class="row" id="daily-box">
-        <div class="col s1 forcast" id="day1">day 1 goes here</div>
-        <div class="col s1 forcast" id="day2">day 2 goes here</div>
-        <div class="col s1 forcast" id="day3">day 3 goes here</div>
-        <div class="col s1 forcast" id="day4">day 4 goes here</div>
-        <div class="col s1 forcast" id="day5">day 5 goes here</div>
+<!---------------------DAILY SECTION-------------- -->
+    <div class="row card-panel indigo darken-2 z-depth-5 center" id="daily-box">
+        <div class="card-panel col s2 z-depth-5" id="day">
+            <div id="day1">day 1 goes here</div>
+        </div>
+        <div class="card-panel col s2 z-depth-5" id="day">
+            <div id="day2">day 1 goes here</div>
+        </div>
+        <div class="card-panel col s2 z-depth-5" id="day">
+            <div id="day3">day 1 goes here</div>
+        </div>
+        <div class="card-panel col s2 z-depth-5" id="day">
+            <div id="day4">day 1 goes here</div>
+        </div>
+        <div class="card-panel col s2 z-depth-5" id="day">
+            <div id="day5">day 1 goes here</div>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

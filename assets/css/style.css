@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* -------- H1 / H2----------- */
+h1{ 
+    font-weight: 600;
+}
+h2{
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+/* -------- HEADER SECTION */
+header{
+}
+
+/* -------- MAIN SEARCH / CURRENT / HISTORY SECTION */
+#search-current{
+    width: 70%;
+    height: 45vh;
+    margin: auto;
+
+}
+#search-box{
+    height: 36vh;
+    width: 35vh;
+    margin-right: 5vw;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+}
+#current-box{
+    height: 36vh;
+    width: 40vw;
+    margin: 2vh auto;
+}
+/* ------- DAILY SECTION */
+#daily-box{
+    width: 65%;
+    height: 35vh;
+    margin: 2vh auto;
+}
+#day{
+    height: 25vh;
+    margin-top: 2.5vh;
+    margin-left: 1.7vw;
+}
